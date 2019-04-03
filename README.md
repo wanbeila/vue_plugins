@@ -84,5 +84,5 @@ Test.vue为使用的例子
     }
   }
 ```
-效果
+
 ![preview](https://github.com/wanbeila/vue_plugins/blob/master/example.png)
