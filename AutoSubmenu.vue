@@ -11,10 +11,10 @@
             {{ item.title }}
           </el-menu-item>
         </template>
-        <template v-if="submenu.submenu.length>0">
-          <auto-sub-menu :subMenuData="submenu.submenu">
+          <template v-if="submenu.submenu.length>0">
+            <auto-sub-menu :subMenuData="submenu.submenu">
             </auto-sub-menu>
-        </template>
+          </template>
       </el-submenu>
     </template>
   </div>
@@ -31,7 +31,7 @@ export default {
     }
   },
   mounted () {
-    console.log(this.menu_data[0])
+    console.log(this.menu_data)
   }
 }
 </script>

@@ -8,13 +8,13 @@
     <template v-if="menu_data.submenu.length>0">
       <auto-submenu :subMenuData="menu_data.submenu"></auto-submenu>
     </template>
-    <!-- <template v-else-if="menu_data.items.length == 0">
+    <template v-else-if="menu_data.items.length > 0">
         <template v-for="item of menu_data.items">
-          <el-menu-item index="item.index">
+          <el-menu-item :index="item.index">
             {{ item.title }}
           </el-menu-item>
         </template>
-    </template> -->
+    </template>
   </el-menu-item-group>
 </template>
 <style scoped>
@@ -33,7 +33,7 @@ export default {
     }
   },
   mounted() {
-    // console.log(this.menu_data)
+    console.log(this.menu_data)
   }
 }
 </script>
