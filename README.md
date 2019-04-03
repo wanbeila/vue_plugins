@@ -1,6 +1,10 @@
 # vue_plugins
 element-ui动态导航菜单
 菜单按组来分，如需用到多个分组可以通过传入的数组进行遍历创建
+
+Test.vue为使用的例子
+
+
 数据格式
 ```javascript
  data () {
