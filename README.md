@@ -86,3 +86,4 @@ Test.vue为使用的例子
 ```
 
 ![preview](https://github.com/wanbeila/vue_plugins/blob/master/example.png)
+![preview2](https://github.com/wanbeila/vue_plugins/blob/master/example2.png)
