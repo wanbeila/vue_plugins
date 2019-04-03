@@ -6,6 +6,20 @@ Test.vue为使用的例子
 
 
 数据格式
+```html
+<el-menu
+    :default-active="$route.path"
+    class="el-menu-vertical-demo"
+    :collapse="isCollapse"
+    router
+    @open="handleOpen"
+    @close="handleClose"
+  >
+    <template v-for="group_menu of menu_data">
+      <auto-menu :groupMenuData="group_menu.group_menu"></auto-menu>
+    </template>
+  </el-menu>
+```
 ```javascript
  data () {
     return {
